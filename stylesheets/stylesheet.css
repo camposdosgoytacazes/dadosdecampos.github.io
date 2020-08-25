@@ -1,19 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-weight: lighter;
+  font-display: swap;
+  src: url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Light.woff') format('woff'),
+       url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Light.woff2') format('woff2'),
+       url('/fonts/SpaceGrotesk-1.1.6/SpaceGroteskVariable.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-weight: normal;
+  src: url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Regular.woff') format('woff'),
+       url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Regular.woff2') format('woff2'),
+       url('/fonts/SpaceGrotesk-1.1.6/SpaceGroteskVariable.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-weight: medium;
+  font-display: swap;
+  src: url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Medium.woff') format('woff'),
+       url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Medium.woff2') format('woff2'),
+       url('/fonts/SpaceGrotesk-1.1.6/SpaceGroteskVariable.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-weight: bold;
+  font-display: swap;
+  src: url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-SemiBold.woff') format('woff'),
+       url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-SemiBold.woff2') format('woff2'),
+       url('/fonts/SpaceGrotesk-1.1.6/SpaceGroteskVariable.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-weight: bolder;
+  font-display: swap;
+  src: url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Bold.woff') format('woff'),
+       url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Bold.woff2') format('woff2'),
+       url('/fonts/SpaceGrotesk-1.1.6/SpaceGroteskVariable.ttf') format('truetype');
+}
+
 * {
   box-sizing: border-box; }
+
+html {
+        -webkit-font-smoothing: antialiased;
+        scroll-behavior: smooth;
+        font-smoothing: antialiased;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
 
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Space Mono", Lucida Console, Ubuntu Mono, Roboto Mono, monospace;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #606c71;
+}
 
 a {
   color: #1e6bb8;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Space Grotesk", Helvetica, Helvetica Neue, Ubuntu, Roboto, SF Pro, sans-serif;
+    font-weight: bold;
+}
 
 .btn {
   display: inline-block;
@@ -57,11 +117,11 @@ a {
   color: #fff;
   text-align: center;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-image: linear-gradient(120deg, #155799, #ff0032); }
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 5rem 3rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
@@ -86,6 +146,10 @@ a {
 @media screen and (max-width: 42em) {
   .project-name {
     font-size: 1.75rem; } }
+
+.project-name img {
+    width: 6.5em;
+}
 
 .project-tagline {
   margin-bottom: 2rem;
