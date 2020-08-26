@@ -3,41 +3,41 @@
 @font-face {
   font-family: 'Space Grotesk';
   font-style: lighter;
-  src: url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Light.woff') format('woff'),
-       url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Light.woff2') format('woff2'),
-       url('/fonts/SpaceGrotesk-1.1.6/SpaceGroteskVariable.ttf') format('truetype');
+  src: url('https://datacampos.github.io/stylesheets/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Light.woff') format('woff'),
+       url('https://datacampos.github.io/stylesheets/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Light.woff2') format('woff2'),
+       url('https://datacampos.github.io/stylesheets/fonts/SpaceGrotesk-1.1.6/SpaceGroteskVariable.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Space Grotesk';
   font-style: normal;
-  src: url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Regular.woff') format('woff'),
-       url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Regular.woff2') format('woff2'),
-       url('/fonts/SpaceGrotesk-1.1.6/SpaceGroteskVariable.ttf') format('truetype');
+  src: url('https://datacampos.github.io/stylesheets/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Regular.woff') format('woff'),
+       url('https://datacampos.github.io/stylesheets/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Regular.woff2') format('woff2'),
+       url('https://datacampos.github.io/stylesheets/fonts/SpaceGrotesk-1.1.6/SpaceGroteskVariable.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Space Grotesk';
   font-style: medium;
-  src: url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Medium.woff') format('woff'),
-       url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Medium.woff2') format('woff2'),
-       url('/fonts/SpaceGrotesk-1.1.6/SpaceGroteskVariable.ttf') format('truetype');
+  src: url('https://datacampos.github.io/stylesheets/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Medium.woff') format('woff'),
+       url('https://datacampos.github.io/stylesheets/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Medium.woff2') format('woff2'),
+       url('https://datacampos.github.io/stylesheets/fonts/SpaceGrotesk-1.1.6/SpaceGroteskVariable.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Space Grotesk';
   font-style: bold;
-  src: url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-SemiBold.woff') format('woff'),
-       url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-SemiBold.woff2') format('woff2'),
-       url('/fonts/SpaceGrotesk-1.1.6/SpaceGroteskVariable.ttf') format('truetype');
+  src: url('https://datacampos.github.io/stylesheets/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-SemiBold.woff') format('woff'),
+       url('https://datacampos.github.io/stylesheets/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-SemiBold.woff2') format('woff2'),
+       url('https://datacampos.github.io/stylesheets/fonts/SpaceGrotesk-1.1.6/SpaceGroteskVariable.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Space Grotesk';
   font-style: bolder;
-  src: url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Bold.woff') format('woff'),
-       url('/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Bold.woff2') format('woff2'),
-       url('/fonts/SpaceGrotesk-1.1.6/SpaceGroteskVariable.ttf') format('truetype');
+  src: url('https://datacampos.github.io/stylesheets/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Bold.woff') format('woff'),
+       url('https://datacampos.github.io/stylesheets/fonts/SpaceGrotesk-1.1.6/SpaceGrotesk-Bold.woff2') format('woff2'),
+       url('https://datacampos.github.io/stylesheets/fonts/SpaceGrotesk-1.1.6/SpaceGroteskVariable.ttf') format('truetype');
 }
 
 * {
